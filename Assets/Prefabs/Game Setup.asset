@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 22bec4d1a93248f46bc8cca8b656a50b, type: 3}
+  m_Name: Game Setup
+  m_EditorClassIdentifier: 
+  player: {fileID: 1078277298200060, guid: e019075ae078e374d8f1b68ea30c1b95, type: 2}
+  laser: {fileID: 1038774032561826, guid: 53c6f456be7bf4d48a0b8b663f0be577, type: 2}
+  rotationSpeed: 180
+  playerMovementSpeed: 5
+  bigs:
+  - {fileID: 1957224159815514, guid: 09e9db56726a61242a28239ad5bd43c9, type: 2}
+  - {fileID: 1031113073527102, guid: e27dc13547343084eaeccc74024c83c3, type: 2}
+  meds:
+  - {fileID: 1044182829151724, guid: 5b79ca4ec19b8724bb93ae2d8ca7d683, type: 2}
+  - {fileID: 1762256216149456, guid: d82cccf8c4c7e1f4598ebd0929fb74fb, type: 2}
+  smalls:
+  - {fileID: 1671663795122602, guid: a4b50c304b2416c4e80728c218c08a2d, type: 2}
+  tinys:
+  - {fileID: 1510815341487064, guid: d40cd50f738aa7a43b848265536eb9b4, type: 2}
